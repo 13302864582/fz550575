@@ -1,2 +1,2 @@
-# fz550575
+# Equalizer
 Equalizer-Music-fz
