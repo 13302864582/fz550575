@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Equlizer</string>
+    <string name="app_error">Load error,please reopen it.</string>
+    <string name="enable_notify">Enable Notification</string>
+    <string name="enable_vibrate">Enable Vibration</string>
+    <string name="enable_light">Light Theme</string>
+    <string name="menu_spectrum">Spectrum</string>
+    <string name="menu_rate">Rate For Us</string>
+    <string name="menu_recommand">Hot Free</string>
+    <string name="virtual_error">virtual error</string>
+    <string name="bass_error">bass error</string>
+    <string name="eq_error">eq error</string>
+    <string name="custom">Custom</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="success">Success</string>
+    <string name="fail">Fail</string>
+    <string name="name_not_null">The equalizer preset name can not be null.</string>
+    <string name="name_duplicate">The equalizer preset name is duplicate, please input other words.</string>
+    <string name="name_max_length">The equalizer preset name can not more then 10 words.</string>
+    <string name="ok">Certain</string>
+    <string name="exit">Cancel</string>
+    <string name="request_permisssion">Permission is necessary,please click again to request it!</string>
+    <string name="apply_permission">Request permission</string>
+    <string name="no_permission">Request permission</string>
+    <string name="no_permission_sum">Permission is necessary,if you want to experence this fountion,please request it!</string>
+</resources>

@@ -1,0 +1,73 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+
+    <style name="siwtch_item" parent="base_item">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#6E6E6E</item>
+        <item name="android:layout_marginLeft">25dp</item>
+    </style>
+
+    <style name="siwtch" parent="base_item">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">15dp</item>
+    </style>
+
+    <style name="seel_tv_top" parent="base_item">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#c3c3c3</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="base_item">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="match_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">57dp</item>
+    </style>
+
+    <style name="base_item_tv" parent="match_item">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#6E6E6E</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:drawablePadding">20dp</item>
+    </style>
+
+    <style name="eq_seek_llt">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="eq_seek">
+        <item name="android:paddingTop">17dp</item>
+        <item name="android:paddingBottom">17dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_width">65dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="popwin_anim_style">
+        <item name="android:windowEnterAnimation">@anim/push_top_in2</item>
+        <item name="android:windowExitAnimation">@anim/push_top_out2</item>
+    </style>
+
+</resources>

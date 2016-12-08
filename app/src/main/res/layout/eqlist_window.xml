@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#2e2f31"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/eq_style_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+    </android.support.v7.widget.Toolbar>
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@id/eq_style_toolbar"
+        android:id="@+id/eq_style_RecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:text="hahahaha"
+        android:layout_centerInParent="true"
+        />
+</RelativeLayout>

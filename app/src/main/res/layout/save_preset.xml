@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="430dp"
+android:layout_height="wrap_content"
+    >
+
+<RelativeLayout
+    android:background="#303030"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/rename_etv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:textCursorDrawable="@drawable/dialog_cursor"
+        android:paddingLeft="5dp"
+        android:layout_centerVertical="true"
+        android:singleLine="true"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="15dp"
+        android:layout_below="@id/rename_etv"
+        android:text="@string/save"
+        android:textSize="19sp"/>
+    <TextView
+        android:id="@+id/cancel"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/save"
+        android:layout_below="@id/rename_etv"
+        android:text="@string/cancel"
+        android:textSize="19sp"/>
+
+
+</RelativeLayout>
+
+</RelativeLayout>

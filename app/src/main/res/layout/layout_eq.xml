@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:switch="http://schemas.android.com/apk/res-auto"
+    xmlns:visual="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@android:color/black"
+        android:orientation="vertical"
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/home_menu"
+                android:src="@drawable/menu_selector"
+                android:layout_centerVertical="true"
+                style="@style/base_item"
+                android:layout_marginLeft="15dp"
+                />
+
+            <TextView
+                android:id="@+id/home_tv"
+                android:layout_toRightOf="@id/home_menu"
+                android:text="@string/app_name"
+                android:textSize="17sp"
+                android:layout_centerVertical="true"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="15dp"
+                style="@style/base_item" />
+
+            <eq.tools.equlizer_globle.View.SwitchButton
+                android:id="@+id/switch_eq"
+                switch:onImage="@mipmap/side_button01_on"
+                switch:offImage="@mipmap/side_button01_off"
+                style="@style/siwtch" />
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/switch_eq"
+                android:id="@+id/eq_save"
+                android:clickable="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/eq_save_selector"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_toLeftOf="@id/eq_save"
+                android:id="@+id/eq_style"
+                android:clickable="true"
+                android:layout_marginLeft="15dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:layout_marginRight="5dp"
+                android:text="Custom"
+                android:textColor="@color/tv_pressed"
+                android:textSize="16sp"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:maxEms="8"
+                android:drawableRight="@drawable/eq_style_selector"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="#0E0E0E"
+        android:id="@+id/content_eq"
+        android:layout_below="@id/head"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        >
+        <LinearLayout
+            android:padding="12dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                style="@style/eq_seek_llt">
+                <eq.tools.equlizer_globle.View.LightText
+                    android:id="@+id/seekbarVal1"
+                    android:text="1"
+                    style="@style/seel_tv_top"/>
+                <eq.tools.equlizer_globle.View.EQSeekBar
+                    android:id="@+id/seekbar1"
+                    style="@style/eq_seek"
+                   />
+                <TextView
+                    android:text="1"
+                    style="@style/seel_tv_top" />
+            </LinearLayout>
+            <LinearLayout
+                style="@style/eq_seek_llt">
+                <eq.tools.equlizer_globle.View.LightText
+                    android:id="@+id/seekbarVal2"
+                    android:text="1"
+                    style="@style/seel_tv_top" />
+                <eq.tools.equlizer_globle.View.EQSeekBar
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingTop="17dp"
+                    android:paddingBottom="17dp"
+                    android:id="@+id/seekbar2"
+                    android:layout_width="65dp"
+                    />
+                <TextView
+                    android:text="1"
+                    style="@style/seel_tv_top" />
+            </LinearLayout>
+            <LinearLayout
+                style="@style/eq_seek_llt">
+                <eq.tools.equlizer_globle.View.LightText
+                    android:id="@+id/seekbarVal3"
+                    android:text="1"
+                    style="@style/seel_tv_top" />
+                <eq.tools.equlizer_globle.View.EQSeekBar
+                    android:id="@+id/seekbar3"
+                    style="@style/eq_seek"
+                     />
+                <TextView
+                    android:text="1"
+                    style="@style/seel_tv_top" />
+            </LinearLayout>
+            <LinearLayout
+                style="@style/eq_seek_llt">
+                <eq.tools.equlizer_globle.View.LightText
+                    android:id="@+id/seekbarVal4"
+                    android:text="1"
+                    style="@style/seel_tv_top"/>
+                <eq.tools.equlizer_globle.View.EQSeekBar
+                    android:id="@+id/seekbar4"
+                    style="@style/eq_seek"
+                    />
+                <TextView
+                    android:text="1"
+                    style="@style/seel_tv_top" />
+            </LinearLayout>
+            <LinearLayout
+                style="@style/eq_seek_llt">
+                <eq.tools.equlizer_globle.View.LightText
+                    android:id="@+id/seekbarVal5"
+                    android:text="1"
+                    style="@style/seel_tv_top"/>
+                <eq.tools.equlizer_globle.View.EQSeekBar
+                    android:id="@+id/seekbar5"
+                    style="@style/eq_seek"
+                     />
+                <TextView
+                    android:text="1"
+                    style="@style/seel_tv_top" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#0E0E0E"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+            <eq.tools.equlizer_globle.View.ArcProgressBar
+                android:id="@+id/bass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center_horizontal"
+                android:text="fz1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+            <eq.tools.equlizer_globle.View.ArcProgressBar
+                android:id="@+id/virtal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="fz2"/>
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#24292f">
+
+        <eq.tools.equlizer_globle.View.EqualizerView
+            android:id="@+id/bottom_img1"
+            android:layout_width="@dimen/content_botom_img1"
+            android:layout_height="@dimen/content_botom_img1"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/content_botom_marleft"
+            visual:foregroundColor="0xffffffff" />
+
+        <RelativeLayout
+            android:id="@+id/bottom_play_layout"
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@id/bottom_img1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <RelativeLayout
+                        android:id="@+id/opennowplay"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="22dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/bottom_tvtitle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="5dp"
+                                android:ellipsize="end"
+                                android:maxEms="6"
+                                android:singleLine="true"
+                                android:textColor="@android:color/white"
+                                android:textSize="@dimen/botom_tv1"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/bottom_tv1artist"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="5dp"
+                                android:layout_marginLeft="10dp"
+                                android:ellipsize="end"
+                                android:maxEms="6"
+                                android:singleLine="true"
+                                android:textColor="@android:color/white"
+                                android:textSize="@dimen/botom_tv2" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@id/opennowplay"
+                    android:layout_weight="1">
+
+                    <RelativeLayout
+                        android:layout_width="155dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="8dp">
+
+                        <ImageButton
+                            android:id="@+id/bottom_play"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/play_button_selector_on" />
+
+                        <ImageButton
+                            android:id="@+id/bottom_pre"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="8dp"
+                            android:layout_toLeftOf="@id/bottom_play"
+                            android:background="@drawable/previous_selector" />
+
+                        <ImageButton
+                            android:id="@+id/bottom_next"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="8dp"
+                            android:layout_toRightOf="@id/bottom_play"
+                            android:background="@drawable/notifynext_selector" />
+
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/play_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Open you favorite player"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/botom_tv3"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/play_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/play_button_selector_on"
+            android:visibility="gone" />
+    </RelativeLayout>
+</LinearLayout>

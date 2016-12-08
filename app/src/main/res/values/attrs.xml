@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="EqualizerView">
+        <attr name="foregroundColor" format="integer"/>
+        <attr name="animDuration" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="SwitchButton">
+        <attr name="onImage" format="integer"></attr>
+        <attr name="offImage" format="integer"></attr>
+    </declare-styleable>
+    <declare-styleable name="EQ_SeekBar">
+        <attr name="SeekBg" format="integer"></attr>
+        <attr name="SeekPoint" format="integer"></attr>
+    </declare-styleable>
+    <declare-styleable name="ArcProgress">
+        <attr name="progressBg" format="integer"></attr>
+        <attr name="progressOnBg" format="integer"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="LightTextView">
+        <attr name="Lightshadow" format="color"></attr>
+    </declare-styleable>
+</resources>

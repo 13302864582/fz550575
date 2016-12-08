@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:background="@mipmap/widget4_bg"
+    >
+    <ImageView
+        android:layout_marginBottom="13dp"
+        android:id="@+id/switchBtn"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/widget4_button"
+        android:clickable="true"
+        />
+    <ImageView
+        android:layout_marginTop="22dp"
+        android:id="@+id/switchImg"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@mipmap/widget4_icon"
+        android:layout_centerHorizontal="true"
+
+        />
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="eq_name" >
+            <item>Normal</item>
+            <item>Classical</item>
+            <item>Dance</item>
+            <item>Flat</item>
+            <item>Folk</item>
+            <item>Heavy Metal</item>
+            <item>Hip Hop</item>
+            <item>Jazz</item>
+            <item>Pop</item>
+            <item>Rock</item>
+    </string-array>
+
+    <string-array name="eq_value">
+        <item>3, 0, 0, 0, 3</item>
+        <item>5, 3, -2, 4, 4</item>
+        <item>6, 0, 2, -2, 1</item>
+        <item>0, 0, 0, 0, 0</item>
+        <item>2, 0, 0, 2, -1</item>
+        <item>4, 1, 9, 3, 0</item>
+        <item>5, 3, 0, 1, 3</item>
+        <item>4, 2, -2, 2, 5</item>
+        <item>-1, 2, 5, 1, -2</item>
+        <item>5, 3, -1, 3, 5</item>
+    </string-array>
+</resources>
